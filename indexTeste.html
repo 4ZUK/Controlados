@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>RaiaDrogasil S.A</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- Material Kit CSS -->
+    <link href="./css/material-kit.css" rel="stylesheet" />
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+            <div class="navbar-translate">
+
+                <a class="navbar-brand" href="/">
+                  <div class="logo-image">
+                    <img src="./0.png" class="img-fluid">
+                  </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+    
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#pablo" class="nav-link">link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pablo" class="nav-link">link</a>
+                    </li>
+                </ul>
+    
+                <form class="form-inline ml-auto">
+                    <div class="form-group no-border">
+                      <input type="text" class="form-control" placeholder="Pesquisar">
+                    </div>
+                    <button type="submit" class="btn btn-white btn-just-icon btn-round">
+                        <i class="material-icons">search</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    </header>
+  </head>
+  <body>
+    <div class="container">
+   <form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer013">Nome Completo cliente:</label>
+      <input type="text" class="form-control" id="validationServer013" placeholder="Nome completo"
+        value="" required>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServer023">EAN Produto:</label>
+      <input type="text" class="form-control" id="validationServer023" placeholder="EAN"
+        value="" required>
+
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername33">UF e CRM do prescritor</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend33">CRM</span>
+        </div>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername33" placeholder="ESTADO-CRM"
+          aria-describedby="inputGroupPrepend33" required>
+        <div class="invalid-feedback">
+          Por favor digite um crm valido
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer033">Cidade do paciente</label>
+      <input type="text" class="form-control is-invalid" id="validationServer033" placeholder="Cidade do paciente"
+        required>
+      <div class="invalid-feedback">
+        Por favor coloque uma cidade valida.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer043">Estado</label>
+      <input type="text" class="form-control is-invalid" id="validationServer043" placeholder="Estado"
+        required>
+      <div class="invalid-feedback">
+        Por favor escreva um estado valido..
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer053">CEP</label>
+      <input type="text" class="form-control is-invalid" id="validationServer053" placeholder="CEP"
+        required>
+      <div class="invalid-feedback">
+        Codigo postal obrigadorio (CEP).
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input is-invalid" id="invalidCheck33" required>
+      <label class="custom-control-label" for="invalidCheck33">Aceito os termos e condiçoes descritos pela PORTARIA Nº 344, DE 12 DE MAIO DE 1998, sobre a troca e venda de medicamentos controlados</label>
+      <div class="invalid-feedback">
+        voce deve aceitar esses termos antes de prosseguir.
+      </div>
+    </div>
+    <div class="invalid-feedback">
+      Aceite os termos.
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Continuar com a venda</button>
+</form></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"/>
+
+<!--   Core JS Files   -->
+<script src="/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="/js/plugins/moment.min.js"></script>
+<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<script src="/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Google Maps Plugin  -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+<script src="/js/material-kit.js?v=2.0.6" type="text/javascript"></script></body>
+</html>
